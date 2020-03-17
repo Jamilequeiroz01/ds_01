@@ -1,0 +1,13 @@
+
+public class AnimalPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//instanciando
+		Animal animal = new Animal(4, "Cachorro",  30);
+		animal.Imprimir(); //apresentando
+
+	}
+
+}
