@@ -1,0 +1,47 @@
+
+public class Animal {
+	public int QuantidadeDePatas;
+	public String Especie;
+	public double PesoDoAnimal;
+	
+
+	public Animal(int QuantidadeDePatas, String Especie,  double PesoDoAnimal) { //método com parametro
+		
+		this.QuantidadeDePatas = QuantidadeDePatas;
+		this.Especie = Especie;
+		this.PesoDoAnimal = PesoDoAnimal;
+		
+	}
+	
+	public int getQuantidadeDePatas() {
+		return QuantidadeDePatas;
+		
+	}
+	
+	public void setQuantidadeDePatas(int QuantidadeDePatas) {
+		this.QuantidadeDePatas = QuantidadeDePatas;
+	}
+	
+	public String getEspecie() {
+		return Especie;
+	}
+	
+	public void setEspecie(String Especie) {
+		this.Especie = Especie;
+	}
+	
+	public double getPesoDoAnimal() {
+		return PesoDoAnimal;
+	}
+	
+	public void setPesoDoAnimal(double PesoDoAnimal) {
+		this.PesoDoAnimal = PesoDoAnimal;
+	}
+	
+	public void Imprimir(){ //Apresentando os atributos 
+		System.out.println("Quantidade de patas: " + this.getQuantidadeDePatas());
+		System.out.println("Espécie: " + this.getEspecie());
+		System.out.println("Peso do animal: " + this.getPesoDoAnimal());
+	
+  }
+}
